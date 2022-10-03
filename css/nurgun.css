@@ -1,0 +1,56 @@
+.col-img{
+    display: flex;
+    flex-direction: column;
+}
+.logo-first{
+    width: 9%;
+}
+h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.38%;
+    /* or 81px */
+}
+.showcase-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.first-first-section h1{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 101.38%;
+}
+.first-first-section p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* komp ucun */
+.man-first img{
+    width: 304px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul li{
+    display: inline-block;
+}
+.showcase-text{
+    font-size: 80px;
+}
+.showcase-text p, li a{
+    font-size: 20px;
+}
+.first-first-section h1{
+    font-size: 55px;
+}
+.first-first-section p {
+    font-size: 24px;
+
+}
