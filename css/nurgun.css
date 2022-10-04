@@ -30,32 +30,125 @@ h1{
     font-weight: 400;
     line-height: 150%;
 }
-/* komp ucun */
-.man-first img{
-    width: 304px;
+.card-blue p{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
 }
-a{
-    color: black;
-    text-decoration: none;
+section{
+    margin-bottom: 175px;
 }
-ul li{
-    display: inline-block;
-}
-.showcase-text{
-    font-size: 80px;
-}
-.showcase-text p, li a{
-    font-size: 20px;
-}
-.first-first-section h1{
-    font-size: 55px;
-}
-.first-first-section p {
-    font-size: 24px;
-
+h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
 }
 
-.l{
-
-    color: darkred;
+/* mobile start */
+@media (min-width:320px) and (max-width:991px) {
+    
 }
+/* mobile starts */
+@media (min-width:992px) and (max-width:1279px) {
+    
+}
+/* mobile end */
+/* desktop start */
+@media (min-width:1280px) {
+    .man-first img{
+        width: 304px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    ul li{
+        display: inline-block;
+    }
+    .showcase-text p, li a{
+        font-size: 20px;
+    }
+    .first-first-section h1{
+        font-size: 55px;
+    }
+    .first-first-section p {
+        font-size: 24px;
+    }
+    .first-section{
+        margin-top: 21px;
+    }
+    .logo-first{
+        margin-bottom: 100px;
+    }
+    .link{
+        margin-bottom: 30px;
+    }
+    .link li{
+        margin-right: 25px;
+    }
+    .showcase h1{
+       padding-bottom: 25px;
+       font-size: 80px;
+    }
+    .showcase p{
+        width: 414px;
+        height: 62px;
+        font-size: 20px;
+    }
+    .showcase{
+        margin-bottom: 177.62px;
+        
+    }
+    .showcase-text{
+        margin-right: 176px;
+    }
+    .card-blue{
+        width: 483.63px;
+        height: 200px;
+        background: #1E4681;
+        border-radius: 5px;
+        padding: 19px 27px 67px 26px;
+        margin-left: 409.39px;
+    }
+    .card-blue p {
+        font-size: 25px;
+        color: white;
+    }
+    .card-blue p:last-of-type{
+        font-family: 'Roboto';
+        font-size: 20px;
+        width: 280.5px;
+        height: 45.64px;
+        margin-left: 207.61px;
+    }
+    /* o-kurse section */
+    .first-first-section h1{
+        width: 365px;
+        height: 93px;
+        margin-bottom: 18px;
+    }
+    .intro-text{
+        width: 662px;
+        height: 374px;
+        margin-right: 190px;
+    }
+    .z{
+        position: relative;
+        z-index: -1;
+        bottom: 20px;
+    }
+    .facts{
+        margin-top: 94px;
+    }
+    h2{
+        width: 150px;
+        height: 39px;
+        margin-bottom: 1px;
+    }
+    .facts div{
+        margin-right: 94px;
+    }
+}
+/* desktop end */
