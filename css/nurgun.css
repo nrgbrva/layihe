@@ -224,6 +224,9 @@ ul li{
         height: 18.17px;
         font-size: 12px;
     }    
+    header, .intro-text{
+        margin-left: -30;
+    }
 }
 /* mobile end */
 
