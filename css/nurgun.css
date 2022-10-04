@@ -214,9 +214,8 @@ ul li{
     .mini{
         width: 50%;
     }
-    body > section.first-first-section > div > div.facts.row{
+    body > div > section > div.facts.row{
         flex-wrap: wrap;
-        
     }
     
     h2{
@@ -224,9 +223,8 @@ ul li{
         height: 18.17px;
         font-size: 12px;
     }    
-    header, .intro-text{
-        margin-left: -30;
-    }
+    
+    
 }
 /* mobile end */
 
