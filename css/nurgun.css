@@ -76,6 +76,7 @@ ul li{
 @media (min-width:320px) and (max-width:991px) {
     .container{
         width: 80%;
+        margin: auto;
     }
     .man-first img{
         width: 141.68px;
@@ -164,6 +165,7 @@ ul li{
         font-size: 10px;
         padding: 0px 2px 0px 13px;
         margin-left: 87.07px;
+        margin-top: 12px;
     }
     /* o-kurse section */
     .first-first-section h1{
@@ -200,37 +202,32 @@ ul li{
         margin-top: 64px;
         flex-direction: revert;
         display: flex;
-        flex-wrap: nowrap;
+        flex-direction: row;
+        
        
     }
+    .mini p{
+        width: 70%;
+        margin-bottom: 33px;
+
+    }
     .mini{
-        margin-right: 33px;
         width: 50%;
     }
+    body > section.first-first-section > div > div.facts.row{
+        flex-wrap: wrap;
+        
+    }
+    
     h2{
         width: 69.9px;
         height: 18.17px;
         font-size: 12px;
-    }
-    /* 
-        .fact-two{
-        width: 50%;
-        display: flex;
-        justify-content: space-around;
-    }
-        .facts-img{
-        width: 20%;
-        margin-right: 94px;
-    }
-        .mini p{
-        width: 70%;
-    }
-
-     */
-    
-    
-    
+    }    
 }
+/* mobile end */
+
+
 /* tablet starts */
 @media (min-width:992px) and (max-width:1279px) {
     .man-first img{
