@@ -134,12 +134,8 @@ ul li{
     .showcase h1{
        padding-bottom: 12px;
        font-size: 37px;
-       width: 292.63px;
-       height: 88.53px;
     }
     .showcase p{
-        width: 212.4px;
-        height: 28.96px;
         font-size: 10px;
     }
     .showcase{
@@ -160,8 +156,6 @@ ul li{
     .card-blue p:last-of-type{
         font-family: 'Roboto';
         font-size: 20px;
-        width: 130.7px;
-        height: 21.27px;
         font-size: 10px;
         padding: 0px 2px 0px 13px;
         margin-left: 87.07px;
@@ -271,8 +265,7 @@ ul li{
        font-size: 46px;
     }
     .showcase p{
-        width: 264px;
-        height: 36px;
+
         font-size: 12px;
     }
     .showcase{
@@ -295,16 +288,12 @@ ul li{
     .card-blue p:last-of-type{
         font-family: 'Roboto';
         font-size: 20px;
-        width: 162.46px;
-        height: 26.43px;
         font-size: 12px;
         padding: 0px 2px 0px 13px;
         margin-left: 108.22px;
     }
     /* o-kurse section */
     .nurgun-second-section h1{
-        width: 211.4px;
-        height: 53.86px;
         font-size: 32px;
         margin-bottom: 10.42px;
         
@@ -337,8 +326,7 @@ ul li{
         margin-top: 100px;
     }
     h2{
-        width: 86.88px;
-        height: 22.59px;
+
         font-size: 15px;
     }
     .fact-two{
@@ -389,8 +377,6 @@ ul li{
        font-size: 80px;
     }
     .showcase p{
-        width: 414px;
-        height: 62px;
         font-size: 20px;
     }
     .showcase{
@@ -413,14 +399,10 @@ ul li{
     .card-blue p:last-of-type{
         font-family: 'Roboto';
         font-size: 20px;
-        width: 280.5px;
-        height: 45.64px;
         margin-left: 207.61px;
     }
     /* o-kurse section */
     .nurgun-second-section h1{
-        width: 365px;
-        height: 93px;
         margin-bottom: 18px;
     }
     .intro-text{
