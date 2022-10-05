@@ -169,8 +169,7 @@ ul li{
     }
     /* o-kurse section */
     .first-first-section h1{
-        width: 170.08px;
-        height: 43.34px;
+ 
         font-size: 26px;
         margin-bottom: 8.39px;
         
@@ -191,8 +190,7 @@ ul li{
        display: none;
     }
     .intro-text{
-        width: 308.47px;
-        height: 174.27px;        
+           
     }
     
     .z{
@@ -337,7 +335,7 @@ ul li{
     }
     .intro-text{
         width: 383.41px;
-        height: 216.61px;
+;
         margin-right: 110px;
     }
     .z{
@@ -434,8 +432,6 @@ ul li{
         margin-bottom: 18px;
     }
     .intro-text{
-        width: 662px;
-        height: 374px;
         margin-right: 190px;
     }
     .z{
