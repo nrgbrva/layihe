@@ -74,10 +74,6 @@ ul li{
 }
 /* mobile start */
 @media (min-width:320px) and (max-width:991px) {
-    .container{
-        width: 80%;
-        margin: auto;
-    }
     .man-first img{
         width: 141.68px;
         height: 175.1px;
@@ -87,7 +83,6 @@ ul li{
         height: 30.75px;
         margin-top: 36px;
         margin-bottom: 45px;
-
     }
     .row{
         display: flex;
