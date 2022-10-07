@@ -18,13 +18,13 @@ h1{
     font-weight: 400;
     line-height: 150%;
 }
-.first-first-section h1{
+.nurgun-second-section h1{
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
     line-height: 101.38%;
 }
-.first-first-section p {
+.nurgun-second-section p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -74,10 +74,6 @@ ul li{
 }
 /* mobile start */
 @media (min-width:320px) and (max-width:991px) {
-    .container{
-        width: 80%;
-        margin: auto;
-    }
     .man-first img{
         width: 141.68px;
         height: 175.1px;
@@ -98,13 +94,18 @@ ul li{
     .man-first {
         align-self: flex-end;
     }
-    .first-first-section .col-img{
+    .man-first img{
+        margin-left: 54px;
+    }
+    .nurgun-second-section .col-img{
         align-self: center;
     }
     .row:first-of-type{
         align-items: flex-start;
     }
-    
+    .card-blue{
+        margin-left: 1px;
+    }
     .showcase{
         margin-top: 8.06px ;
     }
@@ -115,10 +116,10 @@ ul li{
     .showcase-text p, li a{
         font-size: 10px;
     }
-    .first-first-section h1{
+    .nurgun-second-section h1{
         font-size: 37px;
     }
-    .first-first-section p {
+    .nurgun-second-section p {
         font-size: 10px;
     }
     li img{
@@ -134,12 +135,8 @@ ul li{
     .showcase h1{
        padding-bottom: 12px;
        font-size: 37px;
-       width: 292.63px;
-       height: 88.53px;
     }
     .showcase p{
-        width: 212.4px;
-        height: 28.96px;
         font-size: 10px;
     }
     .showcase{
@@ -160,26 +157,24 @@ ul li{
     .card-blue p:last-of-type{
         font-family: 'Roboto';
         font-size: 20px;
-        width: 130.7px;
-        height: 21.27px;
         font-size: 10px;
         padding: 0px 2px 0px 13px;
         margin-left: 87.07px;
         margin-top: 12px;
     }
     /* o-kurse section */
-    .first-first-section h1{
+    .nurgun-second-section h1{
  
         font-size: 26px;
         margin-bottom: 8.39px;
         
     }
-    .first-first-section img:first-of-type{
+    .nurgun-second-section img:first-of-type{
         margin-top: 56px;
         width: 146.32px;
         height: 146.78px;
     }
-    .first-first-section img:nth-of-type(2){
+    .nurgun-second-section img:nth-of-type(2){
         width: 170.55px;
         height: 27.49px;
     }
@@ -189,10 +184,6 @@ ul li{
     .facts img:last-of-type{
        display: none;
     }
-    .intro-text{
-           
-    }
-    
     .z{
         bottom: 20px;
     }
@@ -200,16 +191,12 @@ ul li{
         margin-top: 64px;
         flex-direction: revert;
         display: flex;
-        flex-direction: row;
-        
-       
+        flex-direction: row;  
     }
     .mini p{
         width: 70%;
         margin-bottom: 33px;
-
     }
-
     .mini{
         width: 50%;
     }
@@ -222,8 +209,23 @@ ul li{
         flex-wrap: wrap;
         align-items: center;
     }
-     section.first-first-section > div > div.facts.row > div:nth-child(4) > p{
+     section.nurgun-second-section > div > div.facts.row > div:nth-child(4) > p{
         width: 50%;
+    }
+    section.nurgun-second-section.nurgun-second-section > div > div.intro-first-first.row{
+        flex-direction: column;
+    }
+    .showcase{
+        flex-direction: column !important;
+    }
+    .showcase div:first-of-type{
+        width: 90%;
+    }
+    .showcase div:nth-of-type(2){
+        width: 70%;
+    }
+    .o-kurse{
+        margin-bottom: 20px;
     }
     
 }
@@ -244,20 +246,23 @@ ul li{
         width: 158.69px;
         height: 23.75px;
     }
+    .showcase-text{
+        width: 50%;
+    }
     .showcase-text p, li a{
         font-size: 12px;
     }
-    .first-first-section h1{
+    .nurgun-second-section h1{
         font-size: 46px;
     }
-    .first-first-section p {
+    .nurgun-second-section p {
         font-size: 12px;
     }
     li img{
         width: 12.74px;
         height: 12.16px;
     }
-    .first-section{
+    .nurgun-first-section{
         margin-top: 22px;
     }
     .logo-first{
@@ -274,12 +279,9 @@ ul li{
     .showcase h1{
        padding-bottom: 12px;
        font-size: 46px;
-       width: 363.72px;
-       height: 110.04px;
     }
     .showcase p{
-        width: 264px;
-        height: 36px;
+
         font-size: 12px;
     }
     .showcase{
@@ -302,25 +304,21 @@ ul li{
     .card-blue p:last-of-type{
         font-family: 'Roboto';
         font-size: 20px;
-        width: 162.46px;
-        height: 26.43px;
         font-size: 12px;
         padding: 0px 2px 0px 13px;
         margin-left: 108.22px;
     }
     /* o-kurse section */
-    .first-first-section h1{
-        width: 211.4px;
-        height: 53.86px;
+    .nurgun-second-section h1{
         font-size: 32px;
         margin-bottom: 10.42px;
         
     }
-    .first-first-section img:first-of-type{
+    .nurgun-second-section img:first-of-type{
         width: 181.86px;
         height: 182.44px;
     }
-    .first-first-section img:nth-of-type(2){
+    .nurgun-second-section img:nth-of-type(2){
         width: 211.98px;
         height: 34.17px;
     }
@@ -335,7 +333,6 @@ ul li{
     }
     .intro-text{
         width: 383.41px;
-;
         margin-right: 110px;
     }
     .z{
@@ -345,8 +342,7 @@ ul li{
         margin-top: 100px;
     }
     h2{
-        width: 86.88px;
-        height: 22.59px;
+
         font-size: 15px;
     }
     .fact-two{
@@ -374,13 +370,13 @@ ul li{
     .showcase-text p, li a{
         font-size: 20px;
     }
-    .first-first-section h1{
+    .nurgun-second-section h1{
         font-size: 55px;
     }
-    .first-first-section p {
+    .nurgun-second-section p {
         font-size: 24px;
     }
-    .first-section{
+    .nurgun-first-section{
         margin-top: 21px;
     }
     .logo-first{
@@ -397,8 +393,6 @@ ul li{
        font-size: 80px;
     }
     .showcase p{
-        width: 414px;
-        height: 62px;
         font-size: 20px;
     }
     .showcase{
@@ -421,14 +415,10 @@ ul li{
     .card-blue p:last-of-type{
         font-family: 'Roboto';
         font-size: 20px;
-        width: 280.5px;
-        height: 45.64px;
         margin-left: 207.61px;
     }
     /* o-kurse section */
-    .first-first-section h1{
-        width: 365px;
-        height: 93px;
+    .nurgun-second-section h1{
         margin-bottom: 18px;
     }
     .intro-text{
@@ -441,12 +431,17 @@ ul li{
         margin-top: 180px;
     }
     h2{
-        width: 150px;
-        height: 39px;
         margin-bottom: 1px;
     }
     .facts div{
         margin-right: 94px;
+    }
+    .showcase-text{
+        width: 50%;
+        margin-bottom: 100px;
+    }
+    .showcase{
+        justify-content: space-between;
     }
     
 
