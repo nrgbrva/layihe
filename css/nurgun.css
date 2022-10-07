@@ -443,6 +443,9 @@ ul li{
     .showcase{
         justify-content: space-between;
     }
+    .o-kurse h1{
+        padding-bottom: 18px;
+    }
     
 
 }
