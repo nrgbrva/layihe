@@ -13,7 +13,7 @@ url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;5
     box-sizing: border-box;
     font-family: 'Roboto';
 }
-body{
+.container{
     width: 80%;
     margin: auto;
 }
