@@ -1,0 +1,44 @@
+.naib-wrapper h2{
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.naib-wrapper ul{
+    list-style: circle !important;
+    font-size: 24px;
+    font-family: 'Roboto', serif;
+    line-height: 36px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width:834px) {
+    .naib-wrapper h2{
+        font-size: 32px;
+    }
+
+    .naib-wrapper ul{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    
+    .naib-wrapper h2{
+        font-size: 26px;
+        margin-left: 0;
+        margin-left: 30px;
+    }
+
+    .naib-wrapper ul{
+        font-size: 12px;
+        line-height: 18px;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    
+    
+}
