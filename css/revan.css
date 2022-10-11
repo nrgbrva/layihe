@@ -1,0 +1,118 @@
+
+.revan-side{
+    background: #EFEFEF;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.revan-side h1{
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.revan-side .contain{
+    padding: 10px;
+    box-shadow: 0 0 20px grey;
+    width: calc((100%/12)*8);
+    background:#FFFFFF;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.revan-side .contain p{
+    font-family: 'Roboto', serif !important;
+    margin: 40px auto;
+    font-size: 20px;
+}
+
+.revan-side .box {
+    display: flex;
+    padding-left: 30px;
+}
+
+.revan-side h2 {
+    height: 40px;
+    font-size: 30px;
+    margin: 0%;
+
+}
+.revan-side .img-and-head{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.revan-side .box .fb-logo{
+    margin-top: 30px;
+    height: 32px;
+}
+
+@media screen and (max-width:834px) {
+    .revan-side h1 {
+        font-size: 32px;
+    }
+    .revan-side .contain{
+        height: 260px;
+    }
+    .revan-side .contain p{
+        font-size: 12px;
+        margin: 0;
+        margin: 18px auto;
+    }
+    .revan-side .box img:first-of-type{
+        width: 110px;
+    }
+    .revan-side .img-and-head h2{
+        font-size: 17px;
+    }
+    .revan-side .img-and-head .fb-logo{
+        height: 20px;
+        max-width: 20px;
+        margin: 0%;
+    }
+}
+@media screen and (max-width:375px) {
+
+    .revan-side {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .revan-side h1 {
+        font-size: 26px;
+        margin: 0%;
+    }
+    .revan-side .contain{
+        margin: 0%;
+    }
+    .revan-side .contain p{
+        font-size: 10px;
+        line-height: 15px;
+        margin: 0;
+        margin: 10px auto;
+    }
+    .revan-side .box img:first-of-type{
+        width: 80px;
+    }
+    .revan-side .img-and-head h2{
+        font-size: 14px;
+    }
+    .revan-side .img-and-head .fb-logo{
+        height: 15px;
+        max-width: 15px;
+        margin: 0%;
+    } 
+}
+@media screen and (max-width:600px){
+    .revan-side h1{
+        margin: 0;
+    }
+    .revan-side .contain{
+        margin: 0;
+    }
+}
