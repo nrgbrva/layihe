@@ -1,0 +1,35 @@
+.container-a{
+    padding: 0 50px;
+}
+.text-top-a h2{
+    font-size: 26px;
+    margin-bottom: 35px;
+    margin-left: 0;
+}
+.box-a{
+    width: 70%;
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+}
+.box-main-a{
+   justify-content: center;
+}
+.text-a h3{
+    font-size: max(2vw,14px);
+}
+.text-a{
+    padding:0 15px;
+    height: 11vh;
+}
+.text-a p{
+    font-size: max(2vw,10px);
+    margin: 10px 0;
+}
+.image-a img{
+    border-top-left-radius: 17.375px;
+    border-top-right-radius: 17.375px;
+}
+.last-p{
+    margin-top: 0;
+}
