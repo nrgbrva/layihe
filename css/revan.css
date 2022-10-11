@@ -9,23 +9,19 @@
 
 .revan-side h1{
     font-size: 55px;
-    margin-left: 120px;
     margin-bottom: 50px;
 }
 
 .revan-side .contain{
     padding: 10px;
     box-shadow: 0 0 20px grey;
-    margin-left: 120px;
-    width: 800px;
-    height: 460px;
+    width: calc((100%/12)*8);
     background:#FFFFFF;
     border-radius: 30px;
     box-sizing: border-box;
 }
 
 .revan-side .contain p{
-    width: 90%;
     font-family: 'Roboto', serif !important;
     margin: 40px auto;
     font-size: 20px;
@@ -38,7 +34,6 @@
 
 .revan-side h2 {
     height: 40px;
-    width: 300px;
     font-size: 30px;
     margin: 0%;
 
@@ -62,7 +57,6 @@
         font-size: 32px;
     }
     .revan-side .contain{
-        width: 450px;
         height: 260px;
     }
     .revan-side .contain p{
@@ -94,8 +88,6 @@
         margin: 0%;
     }
     .revan-side .contain{
-        width: 308px;
-        height: 248px;
         margin: 0%;
     }
     .revan-side .contain p{
