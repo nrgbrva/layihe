@@ -98,10 +98,33 @@
 
 
     <!-- Start of Naib branch -->
+    <div class="naib">
+      <h1>Формат занятий</h1>
+      <ul>
+        <li>
+          <h5>Вебинары</h5>
+          <p>Занятия проходят онлайн
+            в режиме вебинаров
+            с преподавателем</p>
+        </li>
+        <li>
+          <h5>Доступ навсегда</h5>
+          <p>Если вы не успели на вебинар, 
+            всегда можете посмотреть запись 
+            в личном кабинете</p>
+        </li>
+        <li>
+          <h5>Общение</h5>
+          <p>Вы можете задать вопрос
+            преподавателю на занятии</p>
+        </li>
+      </ul>
+    </div>
     <div class="naib-wrapper">
       <h2>Что узнаем</h2>
       <ul>
           <li>Кто чем занят в съёмочной группе;</li>
+
           <li>На какие этапы делится кинопроизводство;</li>
           <li>Как выглядит сценарий фильма и как он меняется<br> по ходу съёмок;</li>
           <li>Какими методами режиссёры заставляют нас смеяться,<br> плакать и грустить;</li>
@@ -110,7 +133,55 @@
           <li>Как, зная всё это, понимать, о чем фильм.</li>
       </ul>
     </div>
-
+    <style>
+      @import 
+    url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    @import 
+    url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      .naib-wrapper h2{
+        font-size: 55px;
+        font-family: 'Roboto Slab', serif;
+        margin-top: 100px;
+        margin-left:calc(100%/12)
+    }
+    
+    .naib-wrapper ul{
+      list-style: circle !important;
+        font-size: 24px;
+        font-family: 'Roboto', serif;
+        line-height: 36px;
+        margin-left:calc(100%/12);
+    }
+    
+    @media screen and (max-width:834px) {
+        .naib-wrapper h2{
+            font-size: 32px;
+        }
+    
+        .naib-wrapper ul{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        
+    }
+    @media screen and (max-width:375px) {
+        
+        .naib-wrapper h2{
+            font-size: 26px;
+            margin-left: 0;
+            margin-left: 30px;
+        }
+    
+        .naib-wrapper ul{
+            font-size: 12px;
+            line-height: 18px;
+            width: 300px;
+            margin-left: 0;
+        }
+    
+        
+        
+    }</style>
     <!-- End of Naib branch -->
 
 

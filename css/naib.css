@@ -1,10 +1,80 @@
-.naib-wrapper h2{
+.naib{
+    width: 100%;
+}
+
+.naib h1{
+    font-size: 55px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: calc(100%/12);
+}
+
+.naib ul{
+    display: flex;
+    margin-left: calc(100%/12);
+    flex-direction: row;
+    font-family: 'Roboto', serif;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+}
+.naib ul li h5{
+    font-size: 25px;
+    color: #1E4681;
+    margin: 0%;
+}
+
+.naib ul li p{
+    font-size: 18px;
+}
+.naib ul li {
+    margin-right: calc(100%/12);
+
+}
+
+@media screen and (max-width:834px) {
+    .naib h1{
+        font-size: 32px;
+    }
+    .naib ul li h5{
+        font-size: 15px;
+    }
+    .naib ul li p{
+        font-size: 11px;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .naib h1{
+        font-size: 26px;
+    }
+    .naib ul{
+        flex-direction: column;
+    }
+    .naib ul li h5{
+        font-size: 12px;
+    }
+    .naib ul li p{
+        font-size: 10px;
+    }
+    .naib ul li{
+        margin-right: 0%;
+    }
+
+
+.naib-wrapper h1{
     font-size: 55px;
     font-family: 'Roboto Slab', serif;
     margin-top: 100px;
-    margin-left: 120px;
+    margin-left: calc(100%/12);
 }
+.naib-wrapper{
+    width: 100%;
+    padding-left: calc(100%/12);
 
+}
+.naib-wrapper {
+    box-sizing: content-box !important;
+}
 .naib-wrapper ul{
     list-style: circle !important;
     font-size: 24px;
@@ -14,7 +84,7 @@
 }
 
 @media screen and (max-width:834px) {
-    .naib-wrapper h2{
+    .naib-wrapper h1{
         font-size: 32px;
     }
 
@@ -26,7 +96,7 @@
 }
 @media screen and (max-width:375px) {
     
-    .naib-wrapper h2{
+    .naib-wrapper h1{
         font-size: 26px;
         margin-left: 0;
         margin-left: 30px;
@@ -39,6 +109,4 @@
         margin-left: 0;
     }
 
-    
-    
-}
+}}
