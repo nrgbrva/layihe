@@ -11,12 +11,16 @@ url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;5
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
     font-family: 'Roboto';
 }
 .container{
     width: 80%;
     margin: auto;
 }
+
 .row{
     display: flex;
     flex-direction: row;
